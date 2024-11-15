@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+    color: #1f1f1f;
+}
+
+body{
+    background-color: #9b287b;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="submit"]{
+    border: 0;
+    background-color: #e7e3e3;
+    padding: 16px;
+    border-radius: 16px;
+}
+label{
+    color: #a3a3a3;
+}
+
+input[type="submit"]{
+    background-color: #9B287B;
+    color: #fff;
+    font-size: 20px;
+}
+label{
+    font-size:14px;
+    margin-bottom: 8px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.form_field{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    width: 100%;
+    color: #5c164e;
+}
+
+#login_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.japossuiconta{
+    
+}
